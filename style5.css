@@ -1,0 +1,143 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #111;
+    line-height: 1.6;
+}
+
+  /* Header Section */
+.Top {
+    position: relative;
+    text-align: center;
+}
+
+.Top img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.Top h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 5px;
+}
+
+  /* Introduction Section */
+.Intro {
+    background-color: #f1efef;
+    padding: 4rem 2rem;
+}
+
+.green{
+    color: #1e4620;
+}
+
+.intro-flex {
+    display: flex;
+    align-items: left;
+    gap: 2rem;
+}
+
+.intro-title h1 {
+    padding-left: 50px;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.intro-title .green {
+    color: #1e4620;
+}
+
+.intro-text1 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    max-width: 550px;
+}
+
+.intro-text2 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    max-width: 550px;
+}
+
+  /* Traits Section */
+.Traits {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Traits > div {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 1rem;
+    gap: 1rem;
+    text-align: left;
+}
+
+.Traits img {
+    width: 40px;
+    height: 40px;
+}
+
+.Traits h2 {
+    display: block;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Traits p {
+    margin: 0.2rem 0 0;
+    font-size: 0.9rem;
+}
+
+
+
+  /* UI Picture Placeholder */
+.Intro > div:last-child {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.Intro > div:last-child::before {
+    content: url('UI1.png'); /* Replace with actual image path */
+    display: flex;
+    max-width: 600px;
+    width: 90%;
+    margin-right: 5px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+  /* Team Members Section */
