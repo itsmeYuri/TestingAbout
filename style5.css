@@ -88,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 15rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .Intro > div:last-child::before {
-    content: url('UI1.png'); /* Replace with actual image path */
+    content: url('/images-icon/UI1.png'); /* Replace with actual image path */
     display: flex;
     max-width: 600px;
     width: 90%;
